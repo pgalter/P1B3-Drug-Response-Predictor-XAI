@@ -1,0 +1,23 @@
+# ignore all raw data files (CSV and TSV)
+*.csv
+*.tsv
+# ignore specific data folders
+data/
+save/
+
+# ignore compiled python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+#ignore virtual environments
+.env
+.venv
+env/
+venv/
+bin/
+lib/
+
+# ignore VS Code or PyCharm local settings
+.vscode/
+.idea/

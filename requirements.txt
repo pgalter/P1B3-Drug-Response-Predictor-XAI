@@ -1,0 +1,10 @@
+scikit-learn
+tensorflow==1.15.0
+tensorflow-estimator==1.15.1
+keras==2.3.1
+shap
+matplotlib
+numpy<1.19.0
+protobuf<3.20
+astropy
+ipython

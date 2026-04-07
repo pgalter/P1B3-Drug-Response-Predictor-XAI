@@ -1,0 +1,1454 @@
+[
+    {
+        "experiment_id": "EXP000",
+        "run_id": "RUN000",
+        "parameters": [
+            "dense: [1000, 500, 100, 50]",
+            "batch_size: 100",
+            "epochs: 1",
+            "activation: relu",
+            "loss: mse",
+            "optimizer: sgd",
+            "learning_rate: 0.001",
+            "scaling: std",
+            "dropout: 0.1",
+            "feature_subsample: 500",
+            "val_split: 0.1",
+            "rng_seed: 2017",
+            "initialization: normal",
+            "min_logconc: -5.0",
+            "max_logconc: -4.0",
+            "category_cutoffs: [0.0]",
+            "test_cell_split: 0.15",
+            "cell_features: ['expression']",
+            "drug_features: ['descriptors']",
+            "subsample: naive_balancing",
+            "batch_normalization: False",
+            "cell_noise_sigma: 0.0",
+            "output_dir: C:\\Users\\pgalt\\Desktop\\xai\\Pilot1\\Pilot1\\P1B3\\save\\EXP000\\RUN000",
+            "verbose: None",
+            "logfile: None",
+            "train_bool: True",
+            "experiment_id: EXP000",
+            "run_id: RUN000",
+            "shuffle: False",
+            "profiling: False",
+            "scramble: False",
+            "workers: 1",
+            "train_steps: 100",
+            "data_type: <class 'numpy.float32'>",
+            "timeout: -1"
+        ],
+        "start_time": "2026-04-07 16:27:32.394698",
+        "status": "Started"
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.4568615034222603
+        },
+        "validation_loss": {
+            "set": 0.40186968445777893
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 1/1, duration: 171.346165s, loss: 0.4568615034222603, val_loss: 0.40186968445777893"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "runtime_hours": {
+            "set": 0.047601422777777784
+        },
+        "end_time": {
+            "set": "2026-04-07 16:30:23.759820"
+        },
+        "status": {
+            "set": "Finished"
+        },
+        "date_modified": {
+            "set": "NOW"
+        }
+    }
+][
+    {
+        "experiment_id": "EXP000",
+        "run_id": "RUN000",
+        "parameters": [
+            "dense: [1000, 500, 100, 50]",
+            "batch_size: 100",
+            "epochs: 1",
+            "activation: relu",
+            "loss: mse",
+            "optimizer: sgd",
+            "learning_rate: 0.001",
+            "scaling: std",
+            "dropout: 0.1",
+            "feature_subsample: 500",
+            "val_split: 0.1",
+            "rng_seed: 2017",
+            "initialization: normal",
+            "min_logconc: -5.0",
+            "max_logconc: -4.0",
+            "category_cutoffs: [0.0]",
+            "test_cell_split: 0.15",
+            "cell_features: ['expression']",
+            "drug_features: ['descriptors']",
+            "subsample: naive_balancing",
+            "batch_normalization: False",
+            "cell_noise_sigma: 0.0",
+            "output_dir: C:\\Users\\pgalt\\Desktop\\xai\\Pilot1\\Pilot1\\P1B3\\save\\EXP000\\RUN000",
+            "verbose: None",
+            "logfile: None",
+            "train_bool: True",
+            "experiment_id: EXP000",
+            "run_id: RUN000",
+            "shuffle: False",
+            "profiling: False",
+            "scramble: False",
+            "workers: 1",
+            "train_steps: 100",
+            "data_type: <class 'numpy.float32'>",
+            "timeout: -1"
+        ],
+        "start_time": "2026-04-07 17:57:45.994758",
+        "status": "Started"
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.4568615034222603
+        },
+        "validation_loss": {
+            "set": 0.40186968445777893
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 1/1, duration: 160.432307s, loss: 0.4568615034222603, val_loss: 0.40186968445777893"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "runtime_hours": {
+            "set": 0.044573300277777776
+        },
+        "end_time": {
+            "set": "2026-04-07 18:00:26.458639"
+        },
+        "status": {
+            "set": "Finished"
+        },
+        "date_modified": {
+            "set": "NOW"
+        }
+    }
+][
+    {
+        "experiment_id": "EXP000",
+        "run_id": "RUN000",
+        "parameters": [
+            "dense: [1000, 500, 100, 50]",
+            "batch_size: 100",
+            "epochs: 1",
+            "activation: relu",
+            "loss: mse",
+            "optimizer: sgd",
+            "learning_rate: 0.001",
+            "scaling: std",
+            "dropout: 0.1",
+            "feature_subsample: 500",
+            "val_split: 0.1",
+            "rng_seed: 2017",
+            "initialization: normal",
+            "min_logconc: -5.0",
+            "max_logconc: -4.0",
+            "category_cutoffs: [0.0]",
+            "test_cell_split: 0.15",
+            "cell_features: ['expression']",
+            "drug_features: ['descriptors']",
+            "subsample: naive_balancing",
+            "batch_normalization: False",
+            "cell_noise_sigma: 0.0",
+            "output_dir: C:\\Users\\pgalt\\Desktop\\xai\\Pilot1\\Pilot1\\P1B3\\save\\EXP000\\RUN000",
+            "verbose: None",
+            "logfile: None",
+            "train_bool: True",
+            "experiment_id: EXP000",
+            "run_id: RUN000",
+            "shuffle: False",
+            "profiling: False",
+            "scramble: False",
+            "workers: 1",
+            "train_steps: 100",
+            "val_steps: 10",
+            "test_steps: 10",
+            "data_type: <class 'numpy.float32'>",
+            "timeout: -1"
+        ],
+        "start_time": "2026-04-07 19:49:25.467035",
+        "status": "Started"
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.4568615034222603
+        },
+        "validation_loss": {
+            "set": 0.5542361736297607
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 1/1, duration: 14.074499s, loss: 0.4568615034222603, val_loss: 0.5542361736297607"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "runtime_hours": {
+            "set": 0.003912073611111111
+        },
+        "end_time": {
+            "set": "2026-04-07 19:49:39.550500"
+        },
+        "status": {
+            "set": "Finished"
+        },
+        "date_modified": {
+            "set": "NOW"
+        }
+    }
+][
+    {
+        "experiment_id": "EXP000",
+        "run_id": "RUN000",
+        "parameters": [
+            "dense: [1000, 500, 100, 50]",
+            "batch_size: 100",
+            "epochs: 1",
+            "activation: relu",
+            "loss: mse",
+            "optimizer: sgd",
+            "learning_rate: 0.001",
+            "scaling: std",
+            "dropout: 0.1",
+            "feature_subsample: 500",
+            "val_split: 0.1",
+            "rng_seed: 2017",
+            "initialization: normal",
+            "min_logconc: -5.0",
+            "max_logconc: -4.0",
+            "category_cutoffs: [0.0]",
+            "test_cell_split: 0.15",
+            "cell_features: ['expression']",
+            "drug_features: ['descriptors']",
+            "subsample: naive_balancing",
+            "batch_normalization: False",
+            "cell_noise_sigma: 0.0",
+            "output_dir: C:\\Users\\pgalt\\Desktop\\xai\\Pilot1\\Pilot1\\P1B3\\save\\EXP000\\RUN000",
+            "verbose: None",
+            "logfile: None",
+            "train_bool: True",
+            "experiment_id: EXP000",
+            "run_id: RUN000",
+            "shuffle: False",
+            "profiling: False",
+            "scramble: False",
+            "workers: 1",
+            "train_steps: 100",
+            "val_steps: 10",
+            "test_steps: 10",
+            "data_type: <class 'numpy.float32'>",
+            "timeout: -1"
+        ],
+        "start_time": "2026-04-07 19:58:10.344971",
+        "status": "Started"
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.4568615034222603
+        },
+        "validation_loss": {
+            "set": 0.5542361736297607
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 1/1, duration: 28.725877s, loss: 0.4568615034222603, val_loss: 0.5542361736297607"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "runtime_hours": {
+            "set": 0.0079883075
+        },
+        "end_time": {
+            "set": "2026-04-07 19:58:39.102878"
+        },
+        "status": {
+            "set": "Finished"
+        },
+        "date_modified": {
+            "set": "NOW"
+        }
+    }
+][
+    {
+        "experiment_id": "EXP000",
+        "run_id": "RUN000",
+        "parameters": [
+            "dense: [1000, 500, 100, 50]",
+            "batch_size: 100",
+            "epochs: 1",
+            "activation: relu",
+            "loss: mse",
+            "optimizer: sgd",
+            "learning_rate: 0.001",
+            "scaling: std",
+            "dropout: 0.1",
+            "feature_subsample: 500",
+            "val_split: 0.1",
+            "rng_seed: 2017",
+            "initialization: normal",
+            "min_logconc: -5.0",
+            "max_logconc: -4.0",
+            "category_cutoffs: [0.0]",
+            "test_cell_split: 0.15",
+            "cell_features: ['expression']",
+            "drug_features: ['descriptors']",
+            "subsample: naive_balancing",
+            "batch_normalization: False",
+            "cell_noise_sigma: 0.0",
+            "output_dir: C:\\Users\\pgalt\\Desktop\\xai\\Pilot1\\Pilot1\\P1B3\\save\\EXP000\\RUN000",
+            "verbose: None",
+            "logfile: None",
+            "train_bool: True",
+            "experiment_id: EXP000",
+            "run_id: RUN000",
+            "shuffle: False",
+            "profiling: False",
+            "scramble: False",
+            "workers: 1",
+            "train_steps: 100",
+            "val_steps: 10",
+            "test_steps: 10",
+            "data_type: <class 'numpy.float32'>",
+            "timeout: -1"
+        ],
+        "start_time": "2026-04-07 20:11:52.384642",
+        "status": "Started"
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.4568615034222603
+        },
+        "validation_loss": {
+            "set": 0.5542361736297607
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 1/1, duration: 16.484924s, loss: 0.4568615034222603, val_loss: 0.5542361736297607"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "runtime_hours": {
+            "set": 0.004582938611111111
+        },
+        "end_time": {
+            "set": "2026-04-07 20:12:08.883221"
+        },
+        "status": {
+            "set": "Finished"
+        },
+        "date_modified": {
+            "set": "NOW"
+        }
+    }
+][
+    {
+        "experiment_id": "EXP000",
+        "run_id": "RUN000",
+        "parameters": [
+            "dense: [1000, 500, 100, 50]",
+            "batch_size: 100",
+            "epochs: 1",
+            "activation: relu",
+            "loss: mse",
+            "optimizer: sgd",
+            "learning_rate: 0.001",
+            "scaling: std",
+            "dropout: 0.1",
+            "feature_subsample: 500",
+            "val_split: 0.1",
+            "rng_seed: 2017",
+            "initialization: normal",
+            "min_logconc: -5.0",
+            "max_logconc: -4.0",
+            "category_cutoffs: [0.0]",
+            "test_cell_split: 0.15",
+            "cell_features: ['expression']",
+            "drug_features: ['descriptors']",
+            "subsample: naive_balancing",
+            "batch_normalization: False",
+            "cell_noise_sigma: 0.0",
+            "output_dir: C:\\Users\\pgalt\\Desktop\\xai\\Pilot1\\Pilot1\\P1B3\\save\\EXP000\\RUN000",
+            "verbose: None",
+            "logfile: None",
+            "train_bool: True",
+            "experiment_id: EXP000",
+            "run_id: RUN000",
+            "shuffle: False",
+            "profiling: False",
+            "scramble: False",
+            "workers: 1",
+            "train_steps: 100",
+            "val_steps: 10",
+            "test_steps: 10",
+            "data_type: <class 'numpy.float32'>",
+            "timeout: -1"
+        ],
+        "start_time": "2026-04-07 20:16:05.681958",
+        "status": "Started"
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.4568615034222603
+        },
+        "validation_loss": {
+            "set": 0.5542361736297607
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 1/1, duration: 22.106185s, loss: 0.4568615034222603, val_loss: 0.5542361736297607"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "runtime_hours": {
+            "set": 0.006151708333333333
+        },
+        "end_time": {
+            "set": "2026-04-07 20:16:27.828108"
+        },
+        "status": {
+            "set": "Finished"
+        },
+        "date_modified": {
+            "set": "NOW"
+        }
+    }
+][
+    {
+        "experiment_id": "EXP000",
+        "run_id": "RUN000",
+        "parameters": [
+            "dense: [1000, 500, 100, 50]",
+            "batch_size: 100",
+            "epochs: 1",
+            "activation: relu",
+            "loss: mse",
+            "optimizer: sgd",
+            "learning_rate: 0.001",
+            "scaling: std",
+            "dropout: 0.1",
+            "feature_subsample: 500",
+            "val_split: 0.1",
+            "rng_seed: 2017",
+            "initialization: normal",
+            "min_logconc: -5.0",
+            "max_logconc: -4.0",
+            "category_cutoffs: [0.0]",
+            "test_cell_split: 0.15",
+            "cell_features: ['expression']",
+            "drug_features: ['descriptors']",
+            "subsample: naive_balancing",
+            "batch_normalization: False",
+            "cell_noise_sigma: 0.0",
+            "output_dir: C:\\Users\\pgalt\\Desktop\\xai\\Pilot1\\Pilot1\\P1B3\\save\\EXP000\\RUN000",
+            "verbose: None",
+            "logfile: None",
+            "train_bool: True",
+            "experiment_id: EXP000",
+            "run_id: RUN000",
+            "shuffle: False",
+            "profiling: False",
+            "scramble: False",
+            "workers: 1",
+            "train_steps: 100",
+            "val_steps: 10",
+            "test_steps: 10",
+            "data_type: <class 'numpy.float32'>",
+            "timeout: -1"
+        ],
+        "start_time": "2026-04-07 20:19:59.951123",
+        "status": "Started"
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.4568615034222603
+        },
+        "validation_loss": {
+            "set": 0.5542361736297607
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 1/1, duration: 20.020113s, loss: 0.4568615034222603, val_loss: 0.5542361736297607"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "runtime_hours": {
+            "set": 0.005570064722222223
+        },
+        "end_time": {
+            "set": "2026-04-07 20:20:20.003356"
+        },
+        "status": {
+            "set": "Finished"
+        },
+        "date_modified": {
+            "set": "NOW"
+        }
+    }
+][
+    {
+        "experiment_id": "EXP000",
+        "run_id": "RUN000",
+        "parameters": [
+            "dense: [1000, 500, 100, 50]",
+            "batch_size: 32",
+            "epochs: 50",
+            "activation: relu",
+            "loss: mse",
+            "optimizer: sgd",
+            "learning_rate: 0.0001",
+            "scaling: std",
+            "dropout: 0.2",
+            "feature_subsample: 500",
+            "val_split: 0.1",
+            "rng_seed: 2017",
+            "initialization: normal",
+            "min_logconc: -5.0",
+            "max_logconc: -4.0",
+            "category_cutoffs: [0.0]",
+            "test_cell_split: 0.15",
+            "cell_features: ['expression']",
+            "drug_features: ['descriptors']",
+            "subsample: naive_balancing",
+            "batch_normalization: True",
+            "cell_noise_sigma: 0.0",
+            "output_dir: C:\\Users\\pgalt\\Desktop\\xai\\Pilot1\\Pilot1\\P1B3\\save\\EXP000\\RUN000",
+            "verbose: None",
+            "logfile: None",
+            "train_bool: True",
+            "experiment_id: EXP000",
+            "run_id: RUN000",
+            "shuffle: False",
+            "profiling: False",
+            "scramble: False",
+            "workers: 1",
+            "train_steps: 100",
+            "val_steps: 10",
+            "test_steps: 10",
+            "data_type: <class 'numpy.float32'>",
+            "timeout: -1"
+        ],
+        "start_time": "2026-04-07 20:39:19.113382",
+        "status": "Started"
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 1.681833055615425
+        },
+        "validation_loss": {
+            "set": 0.4497709274291992
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 1/50, duration: 27.308968s, loss: 1.681833055615425, val_loss: 0.4497709274291992"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 1.3892582243680953
+        },
+        "validation_loss": {
+            "set": 0.5192281007766724
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 2/50, duration: 24.135608s, loss: 1.3892582243680953, val_loss: 0.5192281007766724"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 1.2987510907649993
+        },
+        "validation_loss": {
+            "set": 0.8033354878425598
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 3/50, duration: 23.062907s, loss: 1.2987510907649993, val_loss: 0.8033354878425598"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 1.281918661594391
+        },
+        "validation_loss": {
+            "set": 0.5842877626419067
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 4/50, duration: 25.731466s, loss: 1.281918661594391, val_loss: 0.5842877626419067"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 1.056589959859848
+        },
+        "validation_loss": {
+            "set": 0.4660142958164215
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 5/50, duration: 23.986757s, loss: 1.056589959859848, val_loss: 0.4660142958164215"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 1.0958642065525055
+        },
+        "validation_loss": {
+            "set": 0.49039262533187866
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 6/50, duration: 23.281748s, loss: 1.0958642065525055, val_loss: 0.49039262533187866"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 1.0123737347126007
+        },
+        "validation_loss": {
+            "set": 0.3540932536125183
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 7/50, duration: 22.524972s, loss: 1.0123737347126007, val_loss: 0.3540932536125183"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.9379942116141319
+        },
+        "validation_loss": {
+            "set": 0.5302404761314392
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 8/50, duration: 22.368901s, loss: 0.9379942116141319, val_loss: 0.5302404761314392"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.9424133819341659
+        },
+        "validation_loss": {
+            "set": 0.5825386047363281
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 9/50, duration: 23.162185s, loss: 0.9424133819341659, val_loss: 0.5825386047363281"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.9211319208145141
+        },
+        "validation_loss": {
+            "set": 0.36708590388298035
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 10/50, duration: 22.4793s, loss: 0.9211319208145141, val_loss: 0.36708590388298035"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.9371515601873398
+        },
+        "validation_loss": {
+            "set": 0.510861873626709
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 11/50, duration: 19.64813s, loss: 0.9371515601873398, val_loss: 0.510861873626709"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.9086628165841103
+        },
+        "validation_loss": {
+            "set": 0.4761333465576172
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 12/50, duration: 20.162655s, loss: 0.9086628165841103, val_loss: 0.4761333465576172"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.8683129125833511
+        },
+        "validation_loss": {
+            "set": 0.5499663352966309
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 13/50, duration: 20.201983s, loss: 0.8683129125833511, val_loss: 0.5499663352966309"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.8163902524113655
+        },
+        "validation_loss": {
+            "set": 0.5025851726531982
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 14/50, duration: 22.300793s, loss: 0.8163902524113655, val_loss: 0.5025851726531982"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.825761544406414
+        },
+        "validation_loss": {
+            "set": 0.5768114328384399
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 15/50, duration: 21.604144s, loss: 0.825761544406414, val_loss: 0.5768114328384399"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.8299459403753281
+        },
+        "validation_loss": {
+            "set": 0.5390550494194031
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 16/50, duration: 23.364289s, loss: 0.8299459403753281, val_loss: 0.5390550494194031"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.8133978977799415
+        },
+        "validation_loss": {
+            "set": 0.292442262172699
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 17/50, duration: 21.532233s, loss: 0.8133978977799415, val_loss: 0.292442262172699"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.7820891466736793
+        },
+        "validation_loss": {
+            "set": 0.4576837420463562
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 18/50, duration: 21.25788s, loss: 0.7820891466736793, val_loss: 0.4576837420463562"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.790175843834877
+        },
+        "validation_loss": {
+            "set": 0.4361863434314728
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 19/50, duration: 17.300367s, loss: 0.790175843834877, val_loss: 0.4361863434314728"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.7713603582978249
+        },
+        "validation_loss": {
+            "set": 0.5211201906204224
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 20/50, duration: 13.056412s, loss: 0.7713603582978249, val_loss: 0.5211201906204224"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.7597719588875771
+        },
+        "validation_loss": {
+            "set": 0.46162378787994385
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 21/50, duration: 22.950555s, loss: 0.7597719588875771, val_loss: 0.46162378787994385"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.7488666936755181
+        },
+        "validation_loss": {
+            "set": 0.3784400522708893
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 22/50, duration: 23.552011s, loss: 0.7488666936755181, val_loss: 0.3784400522708893"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.7163805827498436
+        },
+        "validation_loss": {
+            "set": 0.44751715660095215
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 23/50, duration: 21.900034s, loss: 0.7163805827498436, val_loss: 0.44751715660095215"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.7125104478001595
+        },
+        "validation_loss": {
+            "set": 0.4282148480415344
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 24/50, duration: 24.199256s, loss: 0.7125104478001595, val_loss: 0.4282148480415344"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.7180473506450653
+        },
+        "validation_loss": {
+            "set": 0.523587703704834
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 25/50, duration: 21.240827s, loss: 0.7180473506450653, val_loss: 0.523587703704834"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.7015830665826798
+        },
+        "validation_loss": {
+            "set": 0.42285314202308655
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 26/50, duration: 21.889721s, loss: 0.7015830665826798, val_loss: 0.42285314202308655"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.6930675154924393
+        },
+        "validation_loss": {
+            "set": 0.35919931530952454
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 27/50, duration: 20.880127s, loss: 0.6930675154924393, val_loss: 0.35919931530952454"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.6902271634340287
+        },
+        "validation_loss": {
+            "set": 0.2891964614391327
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 28/50, duration: 22.480982s, loss: 0.6902271634340287, val_loss: 0.2891964614391327"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.7258961802721023
+        },
+        "validation_loss": {
+            "set": 0.4206151068210602
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 29/50, duration: 22.025198s, loss: 0.7258961802721023, val_loss: 0.4206151068210602"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.6578234106302261
+        },
+        "validation_loss": {
+            "set": 0.26221519708633423
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 30/50, duration: 22.789829s, loss: 0.6578234106302261, val_loss: 0.26221519708633423"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.6712448036670685
+        },
+        "validation_loss": {
+            "set": 0.43076467514038086
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 31/50, duration: 1169.116431s, loss: 0.6712448036670685, val_loss: 0.43076467514038086"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.6591954374313355
+        },
+        "validation_loss": {
+            "set": 0.49968966841697693
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 32/50, duration: 31.78339s, loss: 0.6591954374313355, val_loss: 0.49968966841697693"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.6914562514424324
+        },
+        "validation_loss": {
+            "set": 0.396528422832489
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 33/50, duration: 33.768278s, loss: 0.6914562514424324, val_loss: 0.396528422832489"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.7100765264034271
+        },
+        "validation_loss": {
+            "set": 0.39289170503616333
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 34/50, duration: 23.198678s, loss: 0.7100765264034271, val_loss: 0.39289170503616333"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.6903191170096398
+        },
+        "validation_loss": {
+            "set": 0.3337342143058777
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 35/50, duration: 24.040421s, loss: 0.6903191170096398, val_loss: 0.3337342143058777"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.6651958847045898
+        },
+        "validation_loss": {
+            "set": 0.3623273968696594
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 36/50, duration: 23.917627s, loss: 0.6651958847045898, val_loss: 0.3623273968696594"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.6533652400970459
+        },
+        "validation_loss": {
+            "set": 0.3536309003829956
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 37/50, duration: 23.44599s, loss: 0.6533652400970459, val_loss: 0.3536309003829956"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.6618226265907288
+        },
+        "validation_loss": {
+            "set": 0.45398133993148804
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 38/50, duration: 23.45245s, loss: 0.6618226265907288, val_loss: 0.45398133993148804"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.652814488708973
+        },
+        "validation_loss": {
+            "set": 0.39333537220954895
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 39/50, duration: 22.986817s, loss: 0.652814488708973, val_loss: 0.39333537220954895"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.6407622385025025
+        },
+        "validation_loss": {
+            "set": 0.2755568027496338
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 40/50, duration: 23.05675s, loss: 0.6407622385025025, val_loss: 0.2755568027496338"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.640322157740593
+        },
+        "validation_loss": {
+            "set": 0.5770773887634277
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 41/50, duration: 25.352961s, loss: 0.640322157740593, val_loss: 0.5770773887634277"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.6277575001120568
+        },
+        "validation_loss": {
+            "set": 0.4146398901939392
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 42/50, duration: 24.020258s, loss: 0.6277575001120568, val_loss: 0.4146398901939392"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.6277619725465775
+        },
+        "validation_loss": {
+            "set": 0.43507182598114014
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 43/50, duration: 22.344594s, loss: 0.6277619725465775, val_loss: 0.43507182598114014"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.6254061359167099
+        },
+        "validation_loss": {
+            "set": 0.3943905830383301
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 44/50, duration: 20.807324s, loss: 0.6254061359167099, val_loss: 0.3943905830383301"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.6271070349216461
+        },
+        "validation_loss": {
+            "set": 0.4653780460357666
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 45/50, duration: 21.522908s, loss: 0.6271070349216461, val_loss: 0.4653780460357666"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.6424599394202233
+        },
+        "validation_loss": {
+            "set": 0.5143072605133057
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 46/50, duration: 22.755516s, loss: 0.6424599394202233, val_loss: 0.5143072605133057"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.6187253513932228
+        },
+        "validation_loss": {
+            "set": 0.35369014739990234
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 47/50, duration: 23.009228s, loss: 0.6187253513932228, val_loss: 0.35369014739990234"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.6144809207320213
+        },
+        "validation_loss": {
+            "set": 0.35871702432632446
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 48/50, duration: 21.312045s, loss: 0.6144809207320213, val_loss: 0.35871702432632446"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.5988369274139405
+        },
+        "validation_loss": {
+            "set": 0.4946025013923645
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 49/50, duration: 20.165023s, loss: 0.5988369274139405, val_loss: 0.4946025013923645"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.5876547323167324
+        },
+        "validation_loss": {
+            "set": 0.3456308841705322
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 50/50, duration: 20.294851s, loss: 0.5876547323167324, val_loss: 0.3456308841705322"
+            ]
+        }
+    },
+    {
+        "run_id": "RUN000",
+        "runtime_hours": {
+            "set": 0.6341221497222223
+        },
+        "end_time": {
+            "set": "2026-04-07 21:17:21.953121"
+        },
+        "status": {
+            "set": "Finished"
+        },
+        "date_modified": {
+            "set": "NOW"
+        }
+    }
+]

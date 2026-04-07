@@ -1,0 +1,78 @@
+[2026-04-07 20:37:59 25672] Params: {'dense': [1000, 500, 100, 50], 'batch_size': 32, 'epochs': 50, 'activation': 'relu', 'loss': 'mse', 'optimizer': 'sgd', 'learning_rate': 0.0001, 'scaling': 'std', 'dropout': 0.2, 'feature_subsample': 500, 'val_split': 0.1, 'rng_seed': 2017, 'initialization': 'normal', 'min_logconc': -5.0, 'max_logconc': -4.0, 'category_cutoffs': [0.0], 'test_cell_split': 0.15, 'cell_features': ['expression'], 'drug_features': ['descriptors'], 'subsample': 'naive_balancing', 'batch_normalization': True, 'cell_noise_sigma': 0.0, 'output_dir': 'C:\\Users\\pgalt\\Desktop\\xai\\Pilot1\\Pilot1\\P1B3\\save\\EXP000\\RUN000', 'verbose': None, 'logfile': None, 'train_bool': True, 'experiment_id': 'EXP000', 'run_id': 'RUN000', 'shuffle': False, 'profiling': False, 'scramble': False, 'workers': 1, 'train_steps': 100, 'val_steps': 10, 'test_steps': 10, 'data_type': <class 'numpy.float32'>, 'timeout': -1}
+[2026-04-07 20:38:17 25672] Loaded 2328562 unique (D, CL) response sets.
+[2026-04-07 20:39:12 25672] Filtered down to 1151557 rows with matching information.
+[2026-04-07 20:39:12 25672] Combined train and validation set has 1000151 rows
+[2026-04-07 20:39:12 25672] Use unseen drugs and a fraction of seen cell lines for testing: LC:HOP_62, LC:NCI_H460, LE:MOLT_4, LE:RPMI_8226, ME:M14, ME:UACC_62, RE:A498, RE:ACHN
+[2026-04-07 20:39:13 25672] Test set has 14740 rows
+[2026-04-07 20:39:13 25672] Distribution of dose response:
+[2026-04-07 20:39:13 25672]              GROWTH
+count  1.014891e+06
+mean  -1.296296e+00
+std    6.216944e+01
+min   -1.000000e+02
+25%   -5.600000e+01
+50%    0.000000e+00
+75%    4.600000e+01
+max    2.700000e+02
+[2026-04-07 20:39:13 25672] Category cutoffs: [0.0]
+[2026-04-07 20:39:13 25672] Dose response bin counts:
+[2026-04-07 20:39:13 25672]   Class 0:  502018 (0.4947) - between -1.00 and +0.00
+[2026-04-07 20:39:13 25672]   Class 1:  512873 (0.5053) - between +0.00 and +2.70
+[2026-04-07 20:39:13 25672]   Total:   1014891
+[2026-04-07 20:39:13 25672] Rows in train: 900136, val: 100015, test: 14740
+[2026-04-07 20:39:13 25672] Input features shapes:
+[2026-04-07 20:39:13 25672]   drug_concentration: (1,)
+[2026-04-07 20:39:13 25672]   cell_expression: (500,)
+[2026-04-07 20:39:13 25672]   drug_descriptors: (500,)
+[2026-04-07 20:39:13 25672] Total input dimensions: 1001
+[2026-04-07 20:39:15 25672] Model: {"class_name": "Sequential", "config": {"name": "sequential_1", "layers": [{"class_name": "Dense", "config": {"name": "dense_1", "trainable": true, "batch_input_shape": [null, 1001], "dtype": "float32", "units": 1000, "activation": "linear", "use_bias": true, "kernel_initializer": {"class_name": "RandomNormal", "config": {"mean": 0.0, "stddev": 0.05, "seed": 2021}}, "bias_initializer": {"class_name": "Constant", "config": {"value": 0.0}}, "kernel_regularizer": null, "bias_regularizer": null, "activity_regularizer": null, "kernel_constraint": null, "bias_constraint": null}}, {"class_name": "BatchNormalization", "config": {"name": "batch_normalization_1", "trainable": true, "dtype": "float32", "axis": -1, "momentum": 0.99, "epsilon": 0.001, "center": true, "scale": true, "beta_initializer": {"class_name": "Zeros", "config": {}}, "gamma_initializer": {"class_name": "Ones", "config": {}}, "moving_mean_initializer": {"class_name": "Zeros", "config": {}}, "moving_variance_initializer": {"class_name": "Ones", "config": {}}, "beta_regularizer": null, "gamma_regularizer": null, "beta_constraint": null, "gamma_constraint": null}}, {"class_name": "Activation", "config": {"name": "activation_1", "trainable": true, "dtype": "float32", "activation": "relu"}}, {"class_name": "Dropout", "config": {"name": "dropout_1", "trainable": true, "dtype": "float32", "rate": 0.2, "noise_shape": null, "seed": null}}, {"class_name": "Dense", "config": {"name": "dense_2", "trainable": true, "batch_input_shape": [null, 1001], "dtype": "float32", "units": 500, "activation": "linear", "use_bias": true, "kernel_initializer": {"class_name": "RandomNormal", "config": {"mean": 0.0, "stddev": 0.05, "seed": 2021}}, "bias_initializer": {"class_name": "Constant", "config": {"value": 0.0}}, "kernel_regularizer": null, "bias_regularizer": null, "activity_regularizer": null, "kernel_constraint": null, "bias_constraint": null}}, {"class_name": "BatchNormalization", "config": {"name": "batch_normalization_2", "trainable": true, "dtype": "float32", "axis": -1, "momentum": 0.99, "epsilon": 0.001, "center": true, "scale": true, "beta_initializer": {"class_name": "Zeros", "config": {}}, "gamma_initializer": {"class_name": "Ones", "config": {}}, "moving_mean_initializer": {"class_name": "Zeros", "config": {}}, "moving_variance_initializer": {"class_name": "Ones", "config": {}}, "beta_regularizer": null, "gamma_regularizer": null, "beta_constraint": null, "gamma_constraint": null}}, {"class_name": "Activation", "config": {"name": "activation_2", "trainable": true, "dtype": "float32", "activation": "relu"}}, {"class_name": "Dropout", "config": {"name": "dropout_2", "trainable": true, "dtype": "float32", "rate": 0.2, "noise_shape": null, "seed": null}}, {"class_name": "Dense", "config": {"name": "dense_3", "trainable": true, "batch_input_shape": [null, 1001], "dtype": "float32", "units": 100, "activation": "linear", "use_bias": true, "kernel_initializer": {"class_name": "RandomNormal", "config": {"mean": 0.0, "stddev": 0.05, "seed": 2021}}, "bias_initializer": {"class_name": "Constant", "config": {"value": 0.0}}, "kernel_regularizer": null, "bias_regularizer": null, "activity_regularizer": null, "kernel_constraint": null, "bias_constraint": null}}, {"class_name": "BatchNormalization", "config": {"name": "batch_normalization_3", "trainable": true, "dtype": "float32", "axis": -1, "momentum": 0.99, "epsilon": 0.001, "center": true, "scale": true, "beta_initializer": {"class_name": "Zeros", "config": {}}, "gamma_initializer": {"class_name": "Ones", "config": {}}, "moving_mean_initializer": {"class_name": "Zeros", "config": {}}, "moving_variance_initializer": {"class_name": "Ones", "config": {}}, "beta_regularizer": null, "gamma_regularizer": null, "beta_constraint": null, "gamma_constraint": null}}, {"class_name": "Activation", "config": {"name": "activation_3", "trainable": true, "dtype": "float32", "activation": "relu"}}, {"class_name": "Dropout", "config": {"name": "dropout_3", "trainable": true, "dtype": "float32", "rate": 0.2, "noise_shape": null, "seed": null}}, {"class_name": "Dense", "config": {"name": "dense_4", "trainable": true, "batch_input_shape": [null, 1001], "dtype": "float32", "units": 50, "activation": "linear", "use_bias": true, "kernel_initializer": {"class_name": "RandomNormal", "config": {"mean": 0.0, "stddev": 0.05, "seed": 2021}}, "bias_initializer": {"class_name": "Constant", "config": {"value": 0.0}}, "kernel_regularizer": null, "bias_regularizer": null, "activity_regularizer": null, "kernel_constraint": null, "bias_constraint": null}}, {"class_name": "BatchNormalization", "config": {"name": "batch_normalization_4", "trainable": true, "dtype": "float32", "axis": -1, "momentum": 0.99, "epsilon": 0.001, "center": true, "scale": true, "beta_initializer": {"class_name": "Zeros", "config": {}}, "gamma_initializer": {"class_name": "Ones", "config": {}}, "moving_mean_initializer": {"class_name": "Zeros", "config": {}}, "moving_variance_initializer": {"class_name": "Ones", "config": {}}, "beta_regularizer": null, "gamma_regularizer": null, "beta_constraint": null, "gamma_constraint": null}}, {"class_name": "Activation", "config": {"name": "activation_4", "trainable": true, "dtype": "float32", "activation": "relu"}}, {"class_name": "Dropout", "config": {"name": "dropout_4", "trainable": true, "dtype": "float32", "rate": 0.2, "noise_shape": null, "seed": null}}, {"class_name": "Dense", "config": {"name": "dense_5", "trainable": true, "dtype": "float32", "units": 1, "activation": "linear", "use_bias": true, "kernel_initializer": {"class_name": "VarianceScaling", "config": {"scale": 1.0, "mode": "fan_avg", "distribution": "uniform", "seed": null}}, "bias_initializer": {"class_name": "Zeros", "config": {}}, "kernel_regularizer": null, "bias_regularizer": null, "activity_regularizer": null, "kernel_constraint": null, "bias_constraint": null}}]}, "keras_version": "2.3.1", "backend": "tensorflow"}
+[2026-04-07 20:39:46 25672] Epoch 1/50 - loss: 1.6818 - val_loss: 0.4498 - val_acc: 0.5531 - test_loss: 0.4449 - test_acc: 0.5125
+[2026-04-07 20:40:10 25672] Epoch 2/50 - loss: 1.3893 - val_loss: 0.5192 - val_acc: 0.4906 - test_loss: 0.3906 - test_acc: 0.5469
+[2026-04-07 20:40:33 25672] Epoch 3/50 - loss: 1.2988 - val_loss: 0.8033 - val_acc: 0.5437 - test_loss: 0.4776 - test_acc: 0.5156
+[2026-04-07 20:40:59 25672] Epoch 4/50 - loss: 1.2819 - val_loss: 0.5843 - val_acc: 0.5437 - test_loss: 0.4381 - test_acc: 0.5156
+[2026-04-07 20:41:23 25672] Epoch 5/50 - loss: 1.0566 - val_loss: 0.4660 - val_acc: 0.5344 - test_loss: 0.5289 - test_acc: 0.5156
+[2026-04-07 20:41:46 25672] Epoch 6/50 - loss: 1.0959 - val_loss: 0.4904 - val_acc: 0.4563 - test_loss: 0.5274 - test_acc: 0.5063
+[2026-04-07 20:42:09 25672] Epoch 7/50 - loss: 1.0124 - val_loss: 0.3541 - val_acc: 0.5437 - test_loss: 0.4942 - test_acc: 0.5250
+[2026-04-07 20:42:31 25672] Epoch 8/50 - loss: 0.9380 - val_loss: 0.5302 - val_acc: 0.5094 - test_loss: 0.4119 - test_acc: 0.5281
+[2026-04-07 20:42:54 25672] Epoch 9/50 - loss: 0.9424 - val_loss: 0.5825 - val_acc: 0.5125 - test_loss: 0.5164 - test_acc: 0.5594
+[2026-04-07 20:43:17 25672] Epoch 10/50 - loss: 0.9211 - val_loss: 0.3671 - val_acc: 0.5375 - test_loss: 0.5114 - test_acc: 0.4969
+[2026-04-07 20:43:36 25672] Epoch 11/50 - loss: 0.9372 - val_loss: 0.5109 - val_acc: 0.5344 - test_loss: 0.4453 - test_acc: 0.5500
+[2026-04-07 20:43:57 25672] Epoch 12/50 - loss: 0.9087 - val_loss: 0.4761 - val_acc: 0.4969 - test_loss: 0.4221 - test_acc: 0.5469
+[2026-04-07 20:44:17 25672] Epoch 13/50 - loss: 0.8683 - val_loss: 0.5500 - val_acc: 0.5406 - test_loss: 0.4731 - test_acc: 0.5188
+[2026-04-07 20:44:39 25672] Epoch 14/50 - loss: 0.8164 - val_loss: 0.5026 - val_acc: 0.5312 - test_loss: 0.4347 - test_acc: 0.5625
+[2026-04-07 20:45:01 25672] Epoch 15/50 - loss: 0.8258 - val_loss: 0.5768 - val_acc: 0.4781 - test_loss: 0.4566 - test_acc: 0.5375
+[2026-04-07 20:45:24 25672] Epoch 16/50 - loss: 0.8299 - val_loss: 0.5391 - val_acc: 0.5688 - test_loss: 0.3835 - test_acc: 0.5844
+[2026-04-07 20:45:46 25672] Epoch 17/50 - loss: 0.8134 - val_loss: 0.2924 - val_acc: 0.5500 - test_loss: 0.4377 - test_acc: 0.5437
+[2026-04-07 20:46:07 25672] Epoch 18/50 - loss: 0.7821 - val_loss: 0.4577 - val_acc: 0.4594 - test_loss: 0.4004 - test_acc: 0.5594
+[2026-04-07 20:46:24 25672] Epoch 19/50 - loss: 0.7902 - val_loss: 0.4362 - val_acc: 0.4688 - test_loss: 0.4518 - test_acc: 0.5406
+[2026-04-07 20:46:37 25672] Epoch 20/50 - loss: 0.7714 - val_loss: 0.5211 - val_acc: 0.5531 - test_loss: 0.3980 - test_acc: 0.5312
+[2026-04-07 20:47:00 25672] Epoch 21/50 - loss: 0.7598 - val_loss: 0.4616 - val_acc: 0.5000 - test_loss: 0.4092 - test_acc: 0.5125
+[2026-04-07 20:47:24 25672] Epoch 22/50 - loss: 0.7489 - val_loss: 0.3784 - val_acc: 0.5125 - test_loss: 0.4542 - test_acc: 0.5188
+[2026-04-07 20:47:46 25672] Epoch 23/50 - loss: 0.7164 - val_loss: 0.4475 - val_acc: 0.4688 - test_loss: 0.3881 - test_acc: 0.5562
+[2026-04-07 20:48:10 25672] Epoch 24/50 - loss: 0.7125 - val_loss: 0.4282 - val_acc: 0.5719 - test_loss: 0.4385 - test_acc: 0.4844
+[2026-04-07 20:48:31 25672] Epoch 25/50 - loss: 0.7180 - val_loss: 0.5236 - val_acc: 0.5781 - test_loss: 0.3823 - test_acc: 0.5312
+[2026-04-07 20:48:53 25672] Epoch 26/50 - loss: 0.7016 - val_loss: 0.4229 - val_acc: 0.5063 - test_loss: 0.4469 - test_acc: 0.5188
+[2026-04-07 20:49:14 25672] Epoch 27/50 - loss: 0.6931 - val_loss: 0.3592 - val_acc: 0.5125 - test_loss: 0.4262 - test_acc: 0.5031
+[2026-04-07 20:49:36 25672] Epoch 28/50 - loss: 0.6902 - val_loss: 0.2892 - val_acc: 0.5531 - test_loss: 0.4839 - test_acc: 0.5344
+[2026-04-07 20:49:58 25672] Epoch 29/50 - loss: 0.7259 - val_loss: 0.4206 - val_acc: 0.5531 - test_loss: 0.3887 - test_acc: 0.5406
+[2026-04-07 20:50:21 25672] Epoch 30/50 - loss: 0.6578 - val_loss: 0.2622 - val_acc: 0.5281 - test_loss: 0.3673 - test_acc: 0.5375
+[2026-04-07 21:09:50 25672] Epoch 31/50 - loss: 0.6712 - val_loss: 0.4308 - val_acc: 0.5219 - test_loss: 0.3673 - test_acc: 0.5906
+[2026-04-07 21:10:22 25672] Epoch 32/50 - loss: 0.6592 - val_loss: 0.4997 - val_acc: 0.5344 - test_loss: 0.4007 - test_acc: 0.5437
+[2026-04-07 21:10:56 25672] Epoch 33/50 - loss: 0.6915 - val_loss: 0.3965 - val_acc: 0.5000 - test_loss: 0.3817 - test_acc: 0.5406
+[2026-04-07 21:11:19 25672] Epoch 34/50 - loss: 0.7101 - val_loss: 0.3929 - val_acc: 0.5094 - test_loss: 0.3918 - test_acc: 0.5375
+[2026-04-07 21:11:43 25672] Epoch 35/50 - loss: 0.6903 - val_loss: 0.3337 - val_acc: 0.5688 - test_loss: 0.3830 - test_acc: 0.5625
+[2026-04-07 21:12:07 25672] Epoch 36/50 - loss: 0.6652 - val_loss: 0.3623 - val_acc: 0.5594 - test_loss: 0.4311 - test_acc: 0.5000
+[2026-04-07 21:12:30 25672] Epoch 37/50 - loss: 0.6534 - val_loss: 0.3536 - val_acc: 0.5688 - test_loss: 0.4389 - test_acc: 0.5219
+[2026-04-07 21:12:54 25672] Epoch 38/50 - loss: 0.6618 - val_loss: 0.4540 - val_acc: 0.5625 - test_loss: 0.3713 - test_acc: 0.5844
+[2026-04-07 21:13:17 25672] Epoch 39/50 - loss: 0.6528 - val_loss: 0.3933 - val_acc: 0.5031 - test_loss: 0.3896 - test_acc: 0.5375
+[2026-04-07 21:13:40 25672] Epoch 40/50 - loss: 0.6408 - val_loss: 0.2756 - val_acc: 0.5406 - test_loss: 0.4368 - test_acc: 0.5250
+[2026-04-07 21:14:05 25672] Epoch 41/50 - loss: 0.6403 - val_loss: 0.5771 - val_acc: 0.5469 - test_loss: 0.4099 - test_acc: 0.5437
+[2026-04-07 21:14:29 25672] Epoch 42/50 - loss: 0.6278 - val_loss: 0.4146 - val_acc: 0.5781 - test_loss: 0.3824 - test_acc: 0.5531
+[2026-04-07 21:14:52 25672] Epoch 43/50 - loss: 0.6278 - val_loss: 0.4351 - val_acc: 0.6281 - test_loss: 0.4483 - test_acc: 0.5031
+[2026-04-07 21:15:12 25672] Epoch 44/50 - loss: 0.6254 - val_loss: 0.3944 - val_acc: 0.5781 - test_loss: 0.3739 - test_acc: 0.5688
+[2026-04-07 21:15:34 25672] Epoch 45/50 - loss: 0.6271 - val_loss: 0.4654 - val_acc: 0.5000 - test_loss: 0.3896 - test_acc: 0.5344
+[2026-04-07 21:15:57 25672] Epoch 46/50 - loss: 0.6425 - val_loss: 0.5143 - val_acc: 0.5188 - test_loss: 0.4019 - test_acc: 0.5500
+[2026-04-07 21:16:20 25672] Epoch 47/50 - loss: 0.6187 - val_loss: 0.3537 - val_acc: 0.5688 - test_loss: 0.3937 - test_acc: 0.5375
+[2026-04-07 21:16:41 25672] Epoch 48/50 - loss: 0.6145 - val_loss: 0.3587 - val_acc: 0.5531 - test_loss: 0.3475 - test_acc: 0.5656
+[2026-04-07 21:17:01 25672] Epoch 49/50 - loss: 0.5988 - val_loss: 0.4946 - val_acc: 0.5437 - test_loss: 0.3486 - test_acc: 0.5719
+[2026-04-07 21:17:21 25672] Epoch 50/50 - loss: 0.5877 - val_loss: 0.3456 - val_acc: 0.5906 - test_loss: 0.3356 - test_acc: 0.5469

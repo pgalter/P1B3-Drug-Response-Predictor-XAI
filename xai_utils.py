@@ -31,7 +31,8 @@ def get_ig_attributions(model, baseline, input_sample, steps=50):
 
     # get gradient of output w.r.t input
     # this works even if eager execution is off
-    gradients = K.gradients(model.output, model.input)[0]
+    weights = model.output
+    gradients = K.gradients(weights, model.input)[0]
     get_gradients = K.function([model.input], [gradients])
 
     # compute gradients for all interpolated samples
@@ -86,7 +87,6 @@ def run_xai(model, X_background, X_explain, feature_names=None):
         sample = X_explain[i:i+1]
         attr = get_ig_attributions(model, baseline, sample)
         ig_list.append(attr)
-
     ig_attrs = np.vstack(ig_list)
 
     # ---------------- plotting ----------------
@@ -106,25 +106,18 @@ def run_xai(model, X_background, X_explain, feature_names=None):
     labels = [feature_names[i] for i in top_idx]
     values = mean_abs_ig[top_idx]
 
-    plt.barh(labels, values)
-    plt.xlabel("importance")
-    plt.title("top features (integrated gradients)")
+    plt.barh(labels, values, color="steelblue", edgecolor='black', alpha=0.8)
+    plt.xlabel("Importance (Mean Absolute Attribution)")
+    plt.title("Integrated Gradients: Top 15 Biological/Chemical Drivers")
     plt.grid(axis='x', linestyle='--', alpha=0.7)
-
     plt.tight_layout()
     plt.savefig("xai_outputs/ig_global.png", dpi=150)
     plt.close()
 
     # shap summary plot
-    shap.summary_plot(
-        shap_vals_clipped,
-        X_explain,
-        feature_names=feature_names,
-        max_display=15,
-        show=False
-    )
-
-    plt.title("shap feature impact")
+    shap.summary_plot(shap_vals_clipped, X_explain, feature_names=feature_names, 
+                      max_display=15, show=False, plot_size=(12, 8))
+    plt.title("SHAP Feature Impact (Clipped 0.5-99.5%)")
     plt.tight_layout()
     plt.savefig("xai_outputs/shap_summary.png", dpi=150)
     plt.close()

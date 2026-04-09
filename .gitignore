@@ -4,19 +4,12 @@
 # ignore specific data folders
 data/
 save/
+EXP000/
 
 # ignore compiled python files
 __pycache__/
 *.py[cod]
 *$py.class
-
-#ignore virtual environments
-.env
-.venv
-env/
-venv/
-bin/
-lib/
 
 # ignore VS Code or PyCharm local settings
 .vscode/

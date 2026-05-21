@@ -20,8 +20,9 @@ conda activate P1B3
 
 # install XAI libraries and visualization dependencies
 pip install shap matplotlib
+# install the CANDLE library
+pip install git+https://github.com/ECP-CANDLE/candle_lib.git --no-deps
 ```
-
 **2. Downloading the data**
 Because of the file sizes (>1GB), the datasets cannot be included in this repository, however when you run it automatically. If after running the ```p1b3_baseline_keras2.py --feature_subsample 500 --train_steps 100 --epochs 1``` the data has been downloaded as a JSON file, to download the data you need to follow this steps:
 

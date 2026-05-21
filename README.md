@@ -13,7 +13,7 @@ This project uses the official ```p1b3_baseline_keras2.py``` [repository](https:
 git clone <repo_url> 
 
 cd Pilot1/P1B3
-conda env create -f environment.yml -n P1B3
+conda env create -f environment.yml -n P1B3 python=3.6.13
 
 # activate the benchmark environment
 conda activate P1B3
